@@ -127,7 +127,7 @@ class UserInfo extends Component {
       },
       response => {
         console.log(response);
-        if (response.error_code) return;
+        if (!response || response.error_code) return;
         let prevShareTimes = localStorage.getItem("shareTimes") || 0;
         let shareTimes = parseInt(prevShareTimes) + 1;
         localStorage.setItem("shareTimes", shareTimes);
