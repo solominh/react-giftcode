@@ -2,6 +2,8 @@
   "name": "react-giftcode",
   "version": "0.1.0",
   "homepage": "https://solominh.github.io/react-giftcode",
+  "website":"https://solominh.github.io/react-giftcode/",
+  "description":"A giftcode page on Facebook",
   "private": true,
   "dependencies": {
     "express": "^4.15.4",
